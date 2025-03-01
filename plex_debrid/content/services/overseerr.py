@@ -9,8 +9,8 @@ from ui.ui_print import *
 name = 'Overseerr'
 base_url = ""
 users = ['all']
-allowed_movie_status = [['2'], ['3']]
-allowed_show_status = [['2'], ['3'], ['4'], ['5']]
+allowed_movie_status = [['3']]
+allowed_show_status = [['3'], ['4'], ['5']]
 api_key = ""
 session = requests.Session()
 last_requests = []
